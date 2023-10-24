@@ -83,7 +83,32 @@ article h3{
     letter-spacing: 0.2em;
 }
 
+article h1{
+    font-family:'DM Sans', sans-serif ;
+    font-weight: 900;
+    font-size: 2em;
 
+    line-height: 1em;
+}
+
+article p{
+    color: var(--Very-dark-blue);
+}
+
+.flex-box{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+article h2{
+color: var(--Dark-cyan);
+font-size: 2em;
+}
+
+article s{
+color: var(--Dark-grayish-blue);
+}
 
 .containerBox{
     padding: 2em;
@@ -91,3 +116,20 @@ article h3{
     gap: 1.5em;
 }
 
+
+/* Button element */
+.btn{
+    background-color: var(--Dark-cyan);
+    color: white;
+    font-weight: 500;
+    border-radius: 0.3em;
+    padding: 0.5em 1em;
+}
+
+.btn[data-icon="shopping-cart"]::before{
+   /* background: red; */
+    content: "   ";
+    width: 15px;
+    height: 16px; 
+    background: url(./images/icon-cart.svg);
+}
