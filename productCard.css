@@ -46,6 +46,7 @@
   /* Font Variable */
   :root{
 --Dark-cyan: hsl(158, 36%, 37%);
+--More-Dark-cyan: hsl(158, 36%, 28%);
 --Cream: hsl(30, 38%, 92%);
 
 --Very-dark-blue: hsl(212, 21%, 14%);
@@ -131,6 +132,10 @@ color: var(--Dark-grayish-blue);
     align-items: center;
     /* place-items: center; */
     
+}
+
+.btn:hover{
+  background: var(--More-Dark-cyan);
 }
 
 .btn img{
