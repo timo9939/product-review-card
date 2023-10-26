@@ -143,10 +143,12 @@ color: var(--Dark-grayish-blue);
 
 @media (min-width:600px){
   article{grid-template-columns: 1fr 1fr;
-  max-width: 600px;} 
+  min-width: 600px;
+  max-width: 600px;
+} 
   article img{
     height: 100%;
-    width: auto;
+    width: 100%;
   }
 
 }
