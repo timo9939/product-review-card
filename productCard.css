@@ -145,10 +145,41 @@ color: var(--Dark-grayish-blue);
   article{grid-template-columns: 1fr 1fr;
   min-width: 600px;
   max-width: 600px;
+
+
 } 
   article img{
     height: 100%;
     width: 100%;
+    /* min-width: 600px;
+    max-width: 600px; */
   }
 
+  body{
+    margin: auto;
+  }
+}
+
+@media(min-width:620px){
+  article{grid-template-columns: 1fr 1fr;
+    min-width: 600px;
+    max-width: 600px;
+    
+    position: absolute;
+    top: 10%;
+    
+    
+  } 
+    article img{
+      height: 100%;
+      width: 100%;
+      /* min-width: 600px;
+      max-width: 600px; */
+    }
+  
+body{
+  display: flex;
+  justify-content: center;
+  align-self:center;
+}
 }
