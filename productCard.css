@@ -124,12 +124,29 @@ color: var(--Dark-grayish-blue);
     font-weight: 500;
     border-radius: 0.3em;
     padding: 0.5em 1em;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* place-items: center; */
+    
 }
 
-.btn[data-icon="shopping-cart"]::before{
-   /* background: red; */
-    content: "   ";
-    width: 15px;
-    height: 16px; 
-    background: url(./images/icon-cart.svg);
+.btn img{
+  width: 20px;
+  height:auto;
+  margin-right: 1em;
+}
+
+/* media querie */
+
+@media (min-width:600px){
+  article{grid-template-columns: 1fr 1fr;
+  max-width: 600px;} 
+  article img{
+    height: 100%;
+    width: auto;
+  }
+
 }
